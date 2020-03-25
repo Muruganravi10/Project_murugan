@@ -127,31 +127,46 @@ formatter.match({
   "location": "Sauce_demo_aboutus_stepdefinition.the_user_launch_the_chrome_application()"
 });
 formatter.result({
-  "duration": 7725195476,
+  "duration": 17443103395,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_aboutus_stepdefinition.the_user_open_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 5667128508,
+  "duration": 5058691187,
   "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "standard_user",
+      "offset": 36
+    },
+    {
+      "val": "secret_sauce",
+      "offset": 56
+    }
+  ],
+  "location": "Sauce_demo_aboutus_stepdefinition.the_user_login_the_home_page_using_and(String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 16558611280,
+  "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_aboutus_stepdefinition.check_about_us_in_company_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 43059010077,
+  "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_aboutus_stepdefinition.close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3727720940,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 18,
@@ -196,31 +211,36 @@ formatter.match({
   "location": "Sauce_demo_companynews_stepdefinition.the_user_launching_the_chrome_application()"
 });
 formatter.result({
-  "duration": 5102137224,
+  "duration": 5491141450,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_companynews_stepdefinition.the_users_open_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 3279034401,
+  "duration": 5008365919,
   "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Sauce_demo_companynews_stepdefinition.the_user_logins_the_home_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 17895189230,
+  "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_companynews_stepdefinition.check_company_news_in_company_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 37163912116,
+  "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_companynews_stepdefinition.close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6819562410,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 26,
@@ -265,35 +285,35 @@ formatter.match({
   "location": "Sauce_demo_validcontact_stepdefinition.user_launch_the_chrome_application()"
 });
 formatter.result({
-  "duration": 4038916331,
+  "duration": 10201470780,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_validcontact_stepdefinition.user_open_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 3758457187,
+  "duration": 3888826089,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_validcontact_stepdefinition.user_login_the_home_page()"
 });
 formatter.result({
-  "duration": 10871189629,
+  "duration": 9512370007,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_validcontact_stepdefinition.check_valid_partnership_details_in_the_company_field()"
 });
 formatter.result({
-  "duration": 65324346129,
+  "duration": 63904253042,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_validcontact_stepdefinition.closing_the_browser()"
 });
 formatter.result({
-  "duration": 3235682198,
+  "duration": 3247140251,
   "status": "passed"
 });
 formatter.scenario({
@@ -339,35 +359,35 @@ formatter.match({
   "location": "Sauce_demo_invalidcontact_stepdefinition.user_launching_the_chrome_application()"
 });
 formatter.result({
-  "duration": 4629173979,
+  "duration": 8480775321,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_invalidcontact_stepdefinition.user_opens_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 5966307604,
+  "duration": 5503060246,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_invalidcontact_stepdefinition.user_logins_the_home_page()"
 });
 formatter.result({
-  "duration": 14477756494,
+  "duration": 13519116549,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_invalidcontact_stepdefinition.check_Invalid_partnership_details_in_the_company_field()"
 });
 formatter.result({
-  "duration": 78733638735,
+  "duration": 66264159457,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_demo_invalidcontact_stepdefinition.closing_the_browser()"
 });
 formatter.result({
-  "duration": 3443865800,
+  "duration": 3422191164,
   "status": "passed"
 });
 });

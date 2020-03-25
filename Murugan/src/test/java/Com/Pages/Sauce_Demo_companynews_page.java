@@ -40,13 +40,14 @@ public class Sauce_Demo_companynews_page {
 		System.out.println(driver.getTitle());
 	}
 	//login page
-	public void login(String name,String pass) throws IOException, InterruptedException
+	
+	public void login() throws IOException, InterruptedException
 	{
+		Excel_utility excel= new Excel_utility();
 		
-		
-		driver.findElement(username).sendKeys(name);
+		driver.findElement(username).sendKeys(excel.excel_username(1));
 		Thread.sleep(2000);
-	    driver.findElement(password).sendKeys(pass);
+	    driver.findElement(password).sendKeys(excel.excel_password(1));
 	    Thread.sleep(2000);
 	    driver.findElement(login).click();
 	}

@@ -19,9 +19,11 @@ public class Sauce_demo_companynews_stepdefinition {
 		s.homepage();
 	}
 
-	@Then("^The user logins the home page using \\\"([^\\\"]*)\\\" and \\\"([^\\\"]*)\\\"$")
-	public void the_user_logins_the_home_page_using_and(String username, String password) throws IOException, InterruptedException {
-		s.login(username,password);
+	
+	@Then("^The user logins the home page$")
+	public void the_user_logins_the_home_page() throws IOException, InterruptedException  {
+	    s.login();
+	
 	}
 	
 

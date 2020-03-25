@@ -35,10 +35,10 @@ public class Sauce_demo_aboutus_stepdefinition {
 
 	
 
-	@Then("^The user login the home page$")
-	public void the_user_login_the_home_page() throws IOException, InterruptedException  {
-	    s.login();
 	
+	@Then("^The user login the home page using \"([^\"]*)\" and \"([^\"]*)\"$")
+	public void the_user_login_the_home_page_using_and(String username, String password) throws Throwable {
+		s.login(username,password);
 	}
 
 	
